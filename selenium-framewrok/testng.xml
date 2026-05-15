@@ -1,14 +1,16 @@
 <suite name="loginsuite">
-	<test name="loginandtest">
+	<test name="loginandtest1">
+	    <parameter name = "browser" value="chrome"/>
 		<classes>
-		
-		
-			<class name="tests.logintest">
-			</class>
-
-
-		</classes>
-
-
-	</test>
+		<class name="tests.logintest"></class>
+        </classes>
+    </test>
+	
+	<test name="loginandtest2">
+	    <parameter name = "browser" value="edge"/>
+		<classes>
+		<class name="tests.logintest"></class>
+        </classes>
+    </test>
+	
 </suite>
