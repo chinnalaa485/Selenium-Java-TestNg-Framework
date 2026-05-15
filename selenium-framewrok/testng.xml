@@ -1,0 +1,14 @@
+<suite name="loginsuite">
+	<test name="loginandtest">
+		<classes>
+		
+		
+			<class name="tests.logintest">
+			</class>
+
+
+		</classes>
+
+
+	</test>
+</suite>
